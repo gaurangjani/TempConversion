@@ -79,7 +79,6 @@
             this.txt_fh.Name = "txt_fh";
             this.txt_fh.Size = new System.Drawing.Size(189, 45);
             this.txt_fh.TabIndex = 3;
-            this.txt_fh.TextChanged += new System.EventHandler(this.onTextChange);
             // 
             // txt_cl
             // 
@@ -128,7 +127,6 @@
             this.btn_kl.TabIndex = 8;
             this.btn_kl.Text = "Convert";
             this.btn_kl.UseVisualStyleBackColor = true;
-            this.btn_kl.TextChanged += new System.EventHandler(this.OnTextChange);
             this.btn_kl.Click += new System.EventHandler(this.btn_kl_Click);
             // 
             // Form1
